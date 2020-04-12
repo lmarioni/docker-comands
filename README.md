@@ -11,7 +11,7 @@ docker build -t platzi-principal .
 
 #docker compose
 
-docker-compose up -d : inicia los servicios sin atarnos al output.
-docker-compose ps : muestra los servicios corriendo.
-docker-compose exec app bash : ejecuta el bash del contenedor.
-docker-compose down : elimina todos los servicios, contenedores, redes.
+- docker-compose up -d : inicia los servicios sin atarnos al output.
+- docker-compose ps : muestra los servicios corriendo.
+- docker-compose exec app bash : ejecuta el bash del contenedor.
+- docker-compose down : elimina todos los servicios, contenedores, redes.
