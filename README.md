@@ -41,3 +41,6 @@ Componentes muy importantes que viven en los nodos:
 Nodos == Minions
 
 Todos los nodos y masters están conectados a una red física para poder hablarsen entre sí
+
+
+aws --profile lmarioni eks --region us-east-2 update-kubeconfig --name platzi
